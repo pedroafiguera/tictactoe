@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tic-tac-toe</title>
+	<link rel="stylesheet" type="text/css" href="tictactoe.css">
+	<link href='http://fonts.googleapis.com/css?family=Peralta' rel='stylesheet' type='text/css'>
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script	type="text/javascript" src="tictactoe.js"></script>
+</head>
+<body>
+
+	<h1>tic-tac-toe</h1>
+
+	<h3>How to play?<h3/>
+
+	<h3>1. First select your team from the options bellow (X's or O's)</h3> 
+
+<!-- ========= User options ============ -->
+	<div id="startingOption">
+		<div id="x">
+			<div value="1" class="choice" id="xSquared">
+				<span id="tictactoe">X's</span>
+			</div>
+		</div>
+
+		<div id="o">
+			<div value="2" class="choice" id="oSquared">
+				<span id="tictactoe">O's</span>
+			</div>
+		</div>
+	</div>
+
+	<h3>2. Now make your selection in the grid!</h3>
+
+<!-- ========= Game (each square has its own value)============	-->
+
+	<div id="game">
+		<div id="columnOne">
+			<div value="11" class="square"></div>
+			<div value="21" class="square"></div>
+			<div value="31" class="square"></div>
+		</div>	
+
+		<div id="columnTwo">
+			<div value="12" class="square"></div>
+			<div value="22" class="square"></div>
+			<div value="32" class="square"></div>
+		</div>
+
+		<div id="columnThree">
+			<div value="13" class="square"></div>
+			<div value="23" class="square"></div>
+			<div value="33" class="square"></div>
+		</div>	
+	</div>	
+<!-- ====== Reset and comments to the user =========	 -->
+	<div>
+		<input type="button" id="reset" value="Start Again">		
+	</div>
+
+	<div id="comments"></div>
+
+</body>
+</html>

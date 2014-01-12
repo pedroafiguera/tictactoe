@@ -1,0 +1,86 @@
+body{
+   /*background-image: url("http://www.wallsave.com/wallpapers/1440x900/wood-frame/59595/wood-frame-miscellaneous-ppt-free-59595.jpg");*/
+   background-image: url("tic-tac-toe.jpg");
+   background-size: cover;
+   color: #555;
+   font-family: 'Peralta', cursive;   
+}
+
+/*========= User options ============*/
+.choice {
+	height: 50px;
+	width: 50px;
+	border: 1px solid #999;
+	font-size: 25px;
+	float: center;
+	margin-left: 25px;
+	background-color: white;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 5px;
+}	
+
+.choice-selected {
+	background-color: #555;
+	color: white;
+}
+
+#o {
+	margin-left: 75px;
+	margin-top: -51px;
+}
+
+#tictactoe {
+	vertical-align: middle;
+}
+
+/*========= Game ============*/
+
+#game {
+	padding: 1px 0 20px 25px;
+}
+
+.square {
+	height: 100px;
+	width: 100px;
+	border: 1px solid #999;
+	font-size: 50px;
+	text-align: center;
+	line-height: 100px;
+	border-radius: 5px;
+
+}
+
+#columnOne {
+	background: #D8D8D8; 
+	width: 100px;
+	height: 305px;
+	border-radius: 5px 0 0 5px;
+
+}
+
+#columnTwo {
+	background: #E8E8E8; 
+	width: 100px;
+	height: 305px;
+	margin-left: 100px;
+	margin-top: -305px;
+}
+
+#columnThree {
+	background: #D8D8D8; 
+	width: 100px;
+	height: 305px;
+	margin-left: 200px;
+	margin-top: -305px;
+	border-radius: 0 5px 5px 0;
+}
+
+/*========= Comments to the user ============*/
+
+#comments{
+	width: 300px;
+	padding: 30px;
+	border: 1px solid #999;
+	background-color: white;
+}
